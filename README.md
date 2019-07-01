@@ -1,4 +1,18 @@
-# Loop Exercises
+# Loops Lab
+
+To complete this lab, do the following:
+
+1. Fork this repo
+2. Clone **your** forked repo
+3. Create a file called `loops_lab.js` inside your cloned repo
+4. Copy the description of the exercise as a comment  
+5. Underneath the commented description write your code.
+6. Ensure your solutions work properly!
+7. Open PR against this repo.
+
+___
+
+## Exercises
 
 1. Write a `while` loop and a `for` loop that takes the variable "num" and logs all the numbers, descending, between "num" and 1.
 2. Write a `while` loop and a `for` loop that takes the variable "num", and iterates over all numbers from 0 to "num". 
