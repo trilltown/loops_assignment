@@ -40,22 +40,21 @@ Bonus:
 ```
 99 bottles of beer on the wall, 99 bottles of beer.
 Take one down, pass it around, 98 bottles of beer on the wall.
- ```
+```
 
 This verse is repeated, each time with one less bottle, until the number of bottles is 0. When the number of bottles is 2, the verse is:
 
 ```
 2 bottles of beer on the wall, 2 bottles of beer.
-
 Take one down, pass it around, 1 bottle of beer on the wall.
 ```
+
 In the last line, the word bottles (plural), is  replaced with bottle (singular)
 
 When the number of bottles is 1, the verse is:
 
 ```
 1 bottle of beer on the wall, 1 bottle of beer.
-
 Take one down, pass it around, No more bottle of beer on the wall.
 ```
 
@@ -63,9 +62,14 @@ Take one down, pass it around, No more bottle of beer on the wall.
 Exp For each number from 81 to 90, log B, like so:
 
 ```js
+60 - F
+...
 81 - B
 82 - B
 83 - B
+...
+93 - A
+94 - A
 ...
 ```
 
