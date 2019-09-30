@@ -14,25 +14,80 @@ ___
 
 ## Exercises
 
-# Problem One 
+## Problem One 
 
-Write a `while` loop and a `for` loop that takes the variable "num" and logs all the numbers, descending, between "num" and 
+a. Write a `while` loop that takes the variable `num` and logs all the numbers, descending, between "num" and 1
 
-# Problem Two
+b. Write a `for` loop that takes the variable `num` and logs all the numbers, descending, between "num" and 1
 
-Write a `while` loop and a `for` loop that takes the variable "max", and iterates over all numbers from 0 to "max". 
+Example:
+
+```js
+let num = 8
+
+// Your code here
+
+/* Logs:
+8
+7
+6
+5
+4
+3
+2
+1
+*/
+```
+
+## Problem Two
+
+a. Write a `while` loop that takes the variable "max", and iterates over all numbers from 0 to "max". 
 For each iteration, it will check if the current number is even or odd, and log that to the screen (e.g. "2 is even")
 
-# Problem Three
+b. Use a `for` loop instead
+
+Example: 
+
+```js
+let max = 3
+
+// Your code here
+
+/* Logs:
+"0 is even"
+"1 is odd"
+"2 is even"
+"3 is odd"
+*/
+
+```
+
+## Problem Three
+
+a. Write a `while` loop that takes the variable "x" and iterates over all numbers from 0 to "x". For each iteration of the loop, it will multiply the number of "x" by 9 and log the result 
+
+b. Use a `for` loop instead.
+
+Example:
+
+```js
+let x = 5
+
+// Your code here
+
+/* Logs:
+"0 * 9 = 0"
+"1 * 9 = 9"
+"2 * 9 = 18"
+"3 * 9 = 27"
+"4 * 9 = 36"
+"5 * 9 = 45"
+*/
+```
+
 
 Write a `while` loop and a `for` loop that takes the variable "x" and iterates over all numbers from 0 to "x". For each iteration of the loop, it will multiply the number of "x" by 9 and log the result (e.g. "2 * 9 = 18").
-  _Bonus_ think of another way to solve it. 
-    <details>
-      <summary>
-        Hint
-      </summary>
-      Find the final number and increment the loop by 9.
-    </details>
+
 
 # Problem Four
 
