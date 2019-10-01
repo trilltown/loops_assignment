@@ -1,41 +1,42 @@
-//Problem 1 
-//A
-// let num = 100
-// while (num >=1) {
-//     console.log(num)
-//     num -=1
-// }
+console.log('Prblem 1');
+// A
+let num = 100
+while (num >=1) {
+    console.log(num)
+    num -=1
+}
 
-//B
-// for (num = 100; num>0; num-=1){
-//     console.log(num)
-// }
+// B
+for (num = 100; num>0; num-=1){
+    console.log(num)
+}
 
-// Problem 2
-//A
+console.log('Prblem 2');
+
+// A
 
 let max = 10
 
-// while (max < 200) {
-//     if (max % 2 === 0) {
-//     console.log("This number is Even " + max)
-// } else {
-//     console.log("This number is odd " + max)
-// }
-// max++; 
-// }
+while (max < 20) {
+    if (max % 2 === 0) {
+    console.log("This number is Even " + max)
+} else {
+    console.log("This number is odd " + max)
+}
+max++; 
+}
 
-//B
+// B
 
-// for (max = 0; max <= 20; max++) {
-//     if(max % 2 === 0) {
-//     console.log("The number is Even " + max)
-// }   else {
-//     console.log("This number is odd " + max)
-// }
-// }
+for (max = 0; max <= 20; max++) {
+    if(max % 2 === 0) {
+    console.log("The number is Even " + max)
+}   else {
+    console.log("This number is odd " + max)
+}
+}
 
-//Problem 3
+console.log('Prblem 3');
 //a
 
 let x = 0
@@ -48,4 +49,12 @@ while (x<=10) {
 // b
 for (x = 0; x <= 10; x++){
     console.log(x + " * 9 = "+ x *9);
+}
+
+console.log('Prblem 4');
+
+for (let y = 1; y <= 100; y ++){
+    if (y % 5 ===0 && y % 10 !==0){
+    console.log(y)
+    }
 }
