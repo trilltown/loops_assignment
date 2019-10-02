@@ -58,3 +58,25 @@ for (let y = 1; y <= 100; y ++){
     console.log(y)
     }
 }
+
+console.log('Problem 5');
+
+console.log("This code will run forever. There is no limit for this loop)
+
+console.log('Problem 6');
+
+let num = 1
+
+for (let num = 1; num <=100; num++) {
+  if (num % 5 === 0) {
+    console.log("Buzz")
+  } else if (num % 3 === 0) {
+    console.log("Fizz")
+  } else {
+    console.log(num)
+  }
+}
+
+console.log('Problem 7');
+
+//
