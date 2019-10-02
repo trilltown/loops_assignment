@@ -61,22 +61,37 @@ for (let y = 1; y <= 100; y ++){
 
 console.log('Problem 5');
 
-console.log("This code will run forever. There is no limit for this loop)
+console.log("This code will run forever. There is no limit for this loop, no break in the Loop")
 
 console.log('Problem 6');
 
-let num = 1
+let numFB = 1
 
-for (let num = 1; num <=100; num++) {
-  if (num % 5 === 0) {
-    console.log("Buzz")
-  } else if (num % 3 === 0) {
+for (let numFB = 1; numFB <=16; numFB++) {
+  if (numFB % 5 === 0) {
+    console.log("Buzz"); 
+  } else if (numFB % 3 === 0) {
     console.log("Fizz")
   } else {
-    console.log(num)
+    console.log(numFB)
   }
 }
 
 console.log('Problem 7');
 
 //
+let numFnB = 1
+
+for (let numFnB = 1; numFnB <=31; numFnB++) {
+  if (numFnB % 3===0 && numFnB %5===0){
+      console.log("FizzBuzz")
+}   else if (numFnB % 5 === 0) {
+    console.log("Buzz"); 
+  } else if (numFnB % 3 === 0) {
+    console.log("Fizz")
+  } else {
+    console.log(numFnB)
+  }
+}
+
+console.log("Problem 8")
